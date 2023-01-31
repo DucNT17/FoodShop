@@ -18,12 +18,12 @@ if(isset($message)){
       <a href="dashboard.php" class="logo">Admin<span>Panel</span></a>
 
       <nav class="navbar">
-         <a href="dashboard.php">Home</a>
-         <a href="products.php">Products</a>
-         <a href="placed_orders.php">Orders</a>
-         <a href="admin_accounts.php">Admins</a>
-         <a href="users_accounts.php">Users</a>
-         <a href="messages.php">Messages</a>
+         <a href="dashboard.php">home</a>
+         <a href="products.php">products</a>
+         <a href="placed_orders.php">orders</a>
+         <a href="admin_accounts.php">admins</a>
+         <a href="users_accounts.php">users</a>
+         <a href="messages.php">messages</a>
       </nav>
 
       <div class="icons">
@@ -43,7 +43,7 @@ if(isset($message)){
             <a href="admin_login.php" class="option-btn">login</a>
             <a href="register_admin.php" class="option-btn">register</a>
          </div>
-         <a href="components/admin_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">Logout</a>
+         <a href="../components/admin_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
       </div>
 
    </section>
