@@ -80,7 +80,7 @@ if(isset($_GET['delete'])){
 </head>
 <body>
 
-<?php include 'components/admin_header.php' ?>
+<?php include '../components/admin_header.php' ?>
 
 <!-- add products section starts  -->
 
@@ -143,7 +143,7 @@ if(isset($_GET['delete'])){
 <!-- show products section ends -->
 
 <!-- custom js file link  -->
-<script src="js/admin_script.js"></script>
+<script src="../js/admin_script.js"></script>
 
 </body>
 </html>

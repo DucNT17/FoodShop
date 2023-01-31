@@ -24,12 +24,12 @@ if(!isset($admin_id)){
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="css/admin_style.css">
+   <link rel="stylesheet" href="../css/admin_style.css">
 
 </head>
 <body>
 
-<?php include 'components/admin_header.php' ?>
+<?php include '../components/admin_header.php' ?>
 
 <!-- admin dashboard section starts  -->
 
@@ -136,7 +136,7 @@ if(!isset($admin_id)){
 <!-- admin dashboard section ends -->
 
 <!-- custom js file link  -->
-<script src="js/admin_script.js"></script>
+<script src="../js/admin_script.js"></script>
 
 </body>
 </html>
