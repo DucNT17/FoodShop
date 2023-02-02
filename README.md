@@ -4,7 +4,7 @@ You can use any one of XAMPP, WAMP or LAMP server to run the Web App on your loc
 
 Admin Login & Password (You can change this in phpmyadmin):<br/>
 Login: admin <br>
-Password: admin<br>
+Password: 111<br>
 
 # Screenshots
 
