@@ -62,7 +62,7 @@ CREATE TABLE `cart` (
 -- Cấu trúc bảng cho bảng `message`
 --
 
-CREATE TABLE `message` (
+CREATE TABLE `messages` (
   `id` int(100) NOT NULL,
   `user_id` int(100) NOT NULL,
   `name` varchar(100) NOT NULL,
