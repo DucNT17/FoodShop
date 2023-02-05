@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 31, 2023 lúc 03:52 PM
+-- Thời gian đã tạo: Th2 05, 2023 lúc 04:54 AM
 -- Phiên bản máy phục vụ: 10.4.27-MariaDB
 -- Phiên bản PHP: 8.2.0
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `foodshop_db`
+-- Cơ sở dữ liệu: `foodshop`
 --
 
 -- --------------------------------------------------------
