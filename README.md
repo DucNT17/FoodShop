@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Screenshots
 
-<img src= "![Alt text](images/Banner.png)">
+<img src= "https://github.com/DucNT17/Project_1/blob/main/images/Banner.png">
 
 ## Technologies uses
 <ul>
