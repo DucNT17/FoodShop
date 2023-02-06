@@ -6,11 +6,14 @@ Admin Login & Password (You can change this in phpmyadmin):<br/>
 Login: admin <br>
 Password: 111<br>
 
-# Screenshots
+## Getting started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+## Screenshots
 
 
 
-# Technologies uses
+## Technologies uses
 <ul>
 <a href="https://www.mysql.com/"><li>MySQL</a></li>
 <a href="https://www.php.net/"><li>PHP</a></li>
@@ -19,7 +22,7 @@ Password: 111<br>
 <a href="https://www.javascript.com/"><li>Javascript</a></li>
 </ul>
 
-# Tools Used
+## Tools Used
 <ul>
   <a href="https://www.apachefriends.org/"><li>XAMPP</a></li>
 </ul>
@@ -33,3 +36,14 @@ Password: 111<br>
 <li>Upload the food.sql file and import it</li>
 <li>Open your web browser and check if you got the website running on your localhost (http://localhost:8080/www/)</li>
 </ol>
+
+## Contributing
+If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
+
+## Author
+### Tien Duc Nguyen 
+
+<ul>
+  <li>Github: https://github.com/DucNT17</li>
+</ul>
+
