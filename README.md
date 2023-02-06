@@ -47,3 +47,5 @@ If you would like to contribute to this project, feel free to fork the repositor
   <li>Github: https://github.com/DucNT17</li>
 </ul>
 
+## Support
+For any questions or issues regarding the setup or use of this project, please open an issue on the repository's issue tracker.
