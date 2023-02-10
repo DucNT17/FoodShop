@@ -41,7 +41,7 @@ These instructions will get you a copy of the project up and running on your loc
 If you would like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request.
 
 ## Author
-### Tien Duc Nguyen 
+* **Tien Duc Nguyen** - *Initial work* 
 
 <ul>
   <li>Github: https://github.com/DucNT17</li>
