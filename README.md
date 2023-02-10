@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
   <a href="https://www.apachefriends.org/"><li>XAMPP</a></li>
 </ul>
 
-# How to Install and Use
+## How to Install and Use
 <ol>
 <li>Download and install XAMPP/WAMP/LAMP server and download the files of this project</li>
 <li>Copy the folder of this project in your xampp/htdocs/www folder</li>
