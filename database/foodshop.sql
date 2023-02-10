@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th2 05, 2023 lúc 04:54 AM
+-- Thời gian đã tạo: Th2 10, 2023 lúc 02:58 AM
 -- Phiên bản máy phục vụ: 10.4.27-MariaDB
 -- Phiên bản PHP: 8.2.0
 
@@ -59,7 +59,7 @@ CREATE TABLE `cart` (
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `message`
+-- Cấu trúc bảng cho bảng `messages`
 --
 
 CREATE TABLE `messages` (
@@ -105,6 +105,33 @@ CREATE TABLE `products` (
   `image` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `products`
+--
+
+INSERT INTO `products` (`id`, `name`, `category`, `price`, `image`) VALUES
+(3, 'Dessert-1', 'desserts', 2, 'dessert-1.png'),
+(4, 'Dessert-2', 'desserts', 3, 'dessert-2.png'),
+(5, 'Dessert-3', 'desserts', 3, 'dessert-3.png'),
+(6, 'Dessert-4', 'desserts', 2, 'dessert-4.png'),
+(7, 'Dessert-5', 'desserts', 3, 'dessert-5.png'),
+(8, 'Burger1', 'fast food', 2, 'burger-1.png'),
+(9, 'Burger-2', 'fast food', 3, 'burger-2.png'),
+(10, 'Main dish-1', 'main dish', 3, 'dish-1.png'),
+(11, 'Main dish-2', 'main dish', 3, 'dish-2.png'),
+(12, 'Main dish-3', 'main dish', 3, 'dish-3.png'),
+(13, 'Main dish-4', 'main dish', 3, 'dish-4.png'),
+(14, 'Orange juice', 'drinks', 2, 'drink-1.png'),
+(15, 'Coffee', 'drinks', 2, 'drink-2.png'),
+(16, 'Soda', 'drinks', 2, 'drink-3.png'),
+(17, 'watermelon juice', 'drinks', 2, 'drink-4.png'),
+(18, 'Strawberry juice', 'drinks', 2, 'drink-5.png'),
+(19, 'Pizza-1', 'fast food', 4, 'pizza-1.png'),
+(20, 'Pizza-2', 'fast food', 4, 'pizza-2.png'),
+(21, 'Pizza-3', 'fast food', 4, 'pizza-3.png'),
+(22, 'Pizza-4', 'fast food', 5, 'pizza-4.png'),
+(23, 'Pizza-5', 'fast food', 5, 'pizza-5.png');
+
 -- --------------------------------------------------------
 
 --
@@ -137,9 +164,9 @@ ALTER TABLE `cart`
   ADD PRIMARY KEY (`id`);
 
 --
--- Chỉ mục cho bảng `message`
+-- Chỉ mục cho bảng `messages`
 --
-ALTER TABLE `message`
+ALTER TABLE `messages`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -177,9 +204,9 @@ ALTER TABLE `cart`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `message`
+-- AUTO_INCREMENT cho bảng `messages`
 --
-ALTER TABLE `message`
+ALTER TABLE `messages`
   MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
 
 --
@@ -192,7 +219,7 @@ ALTER TABLE `orders`
 -- AUTO_INCREMENT cho bảng `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
