@@ -33,7 +33,6 @@ include 'components/add_cart.php';
 
 <!-- search form section starts  -->
 <section class="search-form">
-
         <form action="" method="post">
             <input type="text" name="search_box" placeholder="search here.." 
             class="box">
